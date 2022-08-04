@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-lulita-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmiguema66/bootstrap-lulita-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmiguema66/bootstrap-lulita-master/issues"
+  },
+  "homepage": "https://github.com/mmiguema66/bootstrap-lulita-master#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

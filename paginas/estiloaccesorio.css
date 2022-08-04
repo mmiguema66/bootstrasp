@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.d-flex img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    display: block;
+}
+
+
+@media (min-width: 992px) {
+    .alto-100 {
+        height: 100vh;
+    }
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+.carousel-inner {
+max-height: 40rem ;
+}
+
+
+@media (max-width:768px){
+    #intro, #equipo {
+        width: 90% !important;
+    }
+    #equipo p {
+        display: none;
+    }
+    .servicio-fila {
+       width: 100% !important; 
+       text-align: center;
+    }
+}
+ 
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+body {
+    background: #ccc;
+  }
+  
+  .caja h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .caja p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: blue;
+  }
+  
+  p {
+    color: blue;
+  }
+  
+  .cuadrado-1 {
+    background-color: #444;
+    width: 300px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  
+  .cuadrado-2 {
+    background-color: #444;
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  
+  .cuadrado-3 {
+    background-color: #444;
+    width: 600px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  
+  .caja {
+    background-color: white;
+    border: 4px solid black;
+    box-shadow: 0px 0px 2px black;
+    color: blue;
+    margin: 20px;
+  }
+  
+  .caja-secundaria {
+    background-color: gray;
+    border: 4px solid black;
+    box-shadow: 0px 0px 2px black;
+    color: red;
+    margin: 20px;
+  }
+  
+  .caja, .caja-secundaria {
+    width: 500px;
+  }

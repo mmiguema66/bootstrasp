@@ -1,0 +1,100 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+
+.carousel-inner {
+max-height: 800px ;
+}
+
+
+.nosotros {
+    padding-bottom: 75px;
+    padding-top: 75px;
+
+}
+
+.nosotros img {
+    width: 500px;
+}
+
+.nosotros .presentacion {
+    text-align: right;
+}
+
+.nosotros .row {
+    display: flex;
+    align-items: center;
+}
+/*servicios*/
+.servicios {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(../imagenes/cardfondo.png);
+    background-attachment: fixed;
+}
+.card-deck {
+    margin: 0 auto !important;
+    
+}
+.card-deck .card {
+    box-shadow: 4px 0px 15px #000;
+}
+.card-img-top {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (max-width:767px){
+    .carousel-inner {
+        height: 300px;
+    }
+    .nosotros img {
+        width: 300px;
+    }
+    .nosotros {
+        padding-bottom: 45px;
+        padding-top: 45px;
+    
+    }
+    .nosotros .presentacion {
+        text-align: right;
+    }
+    .nosotros img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+ 
+@media (max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
